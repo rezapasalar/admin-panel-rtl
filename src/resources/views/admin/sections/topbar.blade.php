@@ -152,13 +152,15 @@
                 <div class="dropdown-divider"></div>
 
                 <!-- item-->
-                <form action="{{ route('logout') }}" method="post">
-                    @csrf
-                    <button type="submit" class="dropdown-item notify-item">
-                        <i class="dripicons-power"></i>
-                        <span>خروج</span>
-                    </button>
-                </form>
+				@if(Route::has("logout"))
+					<form action="{{ route('logout') }}" method="post">
+						@csrf
+						<button type="submit" class="dropdown-item notify-item">
+							<i class="dripicons-power"></i>
+							<span>خروج</span>
+						</button>
+					</form>
+				@endif
 
             </div>
         </li>
