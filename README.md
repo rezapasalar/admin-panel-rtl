@@ -1,5 +1,5 @@
 # admin-panel-rtl
-This is the admin panel for Persian websites....
+This is the admin panel for Persian websites.
 
 ## Install Package
 composer require rezapasalar/admin-panel-rtl
