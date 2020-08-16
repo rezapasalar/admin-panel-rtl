@@ -1,0 +1,9 @@
+*{
+    direction: rtl;
+}
+
+.form-control.is-invalid, .was-validated .form-control:invalid {
+	padding-left: calc(1.5em + .9rem);
+	padding-right: .9rem;
+    background-position: center left calc(.375em + .1875rem);
+}

@@ -1,0 +1,16 @@
+{
+    "name": "rezapasalar/admin-panel-rtl",
+    "description": "This is the admin panel for Persian websites.",
+    "authors": [
+        {
+            "name": "Reza Pasalar",
+            "email": "rezapasalar@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Rezapasalar\\AdminPanelRtl\\": "src/"
+        }
+    },
+    "require": {}
+}
