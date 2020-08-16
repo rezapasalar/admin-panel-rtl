@@ -32,5 +32,5 @@ mixAdminPanelRtl.combine([
 
 
 
-export default mixAdminPanelRtl;
+module.exports = mixAdminPanelRtl;
    
