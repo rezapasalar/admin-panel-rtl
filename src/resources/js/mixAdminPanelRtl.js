@@ -11,8 +11,7 @@ const mixAdminPanelRtl = require('laravel-mix');
  |
  */
 
-mixAdminPanelRtl.sass('resources/sass/admin/scss/style-rtl.scss', 'public/css/admin/')
-	    .sass('resources/sass/error/scss/style.scss', 'public/css/error/');
+mixAdminPanelRtl.sass('resources/sass/admin/scss/style-rtl.scss', 'public/css/admin/');
 
 mixAdminPanelRtl.combine([
     'resources/js/admin/js/app/vendor.min.js',
@@ -34,3 +33,4 @@ mixAdminPanelRtl.combine([
 
 
 export default mixAdminPanelRtl;
+   
