@@ -14,6 +14,7 @@ php artisan vendor:publish --tag=rezapasalar/admin-panel-rtl --force
 require("./resources/js/mixAdminPanelRtl");
 
 ## Compile JS and CSS
+npm i
 npm run dev
 
 # Use and enjoy
