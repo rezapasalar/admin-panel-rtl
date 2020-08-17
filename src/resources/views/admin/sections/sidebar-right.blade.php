@@ -1,4 +1,4 @@
-<div class="left-side-menu">
+<div class="left-side-menu pt-0">
 
     <div class="slimscroll-menu">
 
