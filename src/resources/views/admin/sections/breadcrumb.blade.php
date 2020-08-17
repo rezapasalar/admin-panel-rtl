@@ -7,7 +7,7 @@
                     <li class="breadcrumb-item active">داشبورد</li>
                 </ol>
             </div>-->
-            <h4 class="page-title">{{ $titleSecond  ?? '' }}</h4>
+            <h4 class="page-title">{{ $breadcrumb  ?? '' }}</h4>
         </div>
     </div>
 </div>
