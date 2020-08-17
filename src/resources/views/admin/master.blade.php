@@ -26,7 +26,7 @@
                     <div class="container-fluid">
 
                         <!-- start page title -->
-                        @include('layouts.admin.sections.title')
+                        @include('layouts.admin.sections.breadcrumb')
                         <!-- end page title -->
 
                         {{ $content ?? '' }}
